@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore our delicious menu and order your favorite dishes online.">
+    <title>Online FoodShop</title>
+    <link rel="icon" type="image/png" href="images\deliDeliLogo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="images/deliDeliLogo.png" alt="DeliDeli Logo"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html"><img src="images\home.png" alt="Home"></a></li>
+                <li><a href="menu.html"><img src="images\book-bookmark.png" alt="Menu"></a></li>
+                <li><a href="contact.html"><img src="images\envelope.png" alt="Contact"></a></li>
+                <li><a href="myOrders.html"><img src="images\ballot.png" alt="My Orders"></a></li>
+                <li><a href="cart.html"><img src="images\shopping-cart.png" alt="Shopping Cart"></a></li>
+                <li><a href="secret.html"><img src="images\secret.png" alt="Secret"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Deli Deli</h1>
+            <p>Explore our delicious menu and order your favorite dishes online.</p>
+            <a href="menu.html" class="cta-button">View Menu</a>
+        </div>
+    </section>
+
+    <section class="featured-products">
+        <h1>Featured Products</h1>
+        <div class="product-grid">
+            <div class="product-item">
+                <img src="images/butterChicken.jpg" alt="Delicious Butter Chicken">
+                <h2>Delicious Butter Chicken</h2>
+                <p class="price">$6.49</p>
+                <button class="add-to-cart" onclick="addToCart('Delicious Butter Chicken', 6.49)">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="images/tandooriChicken.jpg" alt="Spicy Tandoori Chicken">
+                <h2>Spicy Tandoori Chicken</h2>
+                <p class="price">$5.99</p>
+                <button class="add-to-cart" onclick="addToCart('Spicy Tandoori Chicken', 5.99)">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="images/keema.jpg" alt="Keema">
+                <h2>Keema</h2>
+                <p class="price">$6.49</p>
+                <button class="add-to-cart" onclick="addToCart('Keema', 6.49)">Add to Cart</button>
+            </div>
+            <!-- Add more featured products here -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Delicious Delivery Inc</p>
+    </footer>
+</body>
+</html>

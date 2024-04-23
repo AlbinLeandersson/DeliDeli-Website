@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Delicious Delivery</title>
+    <link rel="icon" type="image/png" href="images\deliDeliLogo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="images/deliDeliLogo.png" alt="DeliDeli Logo"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html"><img src="images\home.png" alt="Home"></a></li>
+                <li><a href="menu.html"><img src="images\book-bookmark.png" alt="Menu"></a></li>
+                <li><a href="contact.html"><img src="images\envelope.png" alt="Contact"></a></li>
+                <li><a href="myOrders.html"><img src="images\ballot.png" alt="My Orders"></a></li>
+                <li><a href="cart.html"><img src="images\shopping-cart.png" alt="Shopping Cart"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="menu">
+        <h1>Our Menu</h1>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="images/butterChicken.jpg" alt="Delicious Butter Chicken">
+                <h2>Delicious Butter Chicken</h2>
+                <p class="price">$6.49</p>
+                <button class="add-to-cart" onclick="addToCart('Delicious Butter Chicken', 6.49)">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <img src="images/muttonBiryani.jpg" alt="Mutton Biryani">
+                <h2>Mutton Biryani</h2>
+                <p class="price">$7.99</p>
+                <button class="add-to-cart" onclick="addToCart('Mutton Biryani', 7.99)">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <img src="images/tandooriChicken.jpg" alt="Spicy Tandoori chicken">
+                <h2>Spicy Tandoori chicken</h2>
+                <p class="price">$5.99</p>
+                <button class="add-to-cart" onclick="addToCart('Spicy Tandoori chicken', 5.99)">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <img src="images/naan.jpg" alt="Fresh Naan">
+                <h2>Fresh Naan</h2>
+                <p class="price">$2.49</p>
+                <button class="add-to-cart" onclick="addToCart('Fresh Naan', 2.49)">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <img src="images/keema.jpg" alt="Keema with Bread">
+                <h2>Keema with Bread</h2>
+                <p class="price">$6.49</p>
+                <button class="add-to-cart" onclick="addToCart('Keema with Bread', 6.49)">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <img src="images/jalebi.jpg" alt="Sweet and Crispy Jalebi">
+                <h2>Sweet and Crispy Jalebi</h2>
+                <p class="price">$4.49</p>
+                <button class="add-to-cart" onclick="addToCart('Sweet and Crispy Jalebi', 4.49)">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Delicious Delivery Inc</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

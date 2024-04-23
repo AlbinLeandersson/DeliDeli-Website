@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Online FoodShop</title>
+    <link rel="icon" type="image/png" href="images\deliDeliLogo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="images/deliDeliLogo.png" alt="DeliDeli Logo"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html"><img src="images\home.png" alt="Home"></a></li>
+                <li><a href="menu.html"><img src="images\book-bookmark.png" alt="Menu"></a></li>
+                <li><a href="contact.html"><img src="images\envelope.png" alt="Contact"></a></li>
+                <li><a href="myOrders.html"><img src="images\ballot.png" alt="My Orders"></a></li>
+                <li><a href="cart.html"><img src="images\shopping-cart.png" alt="Shopping Cart"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <h1>Contact Us</h1>
+        <div class="contact-form">
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="form-group">
+                    <label for="membership">Are you a member of Online FoodShop?</label>
+                    <input type="radio" id="membership-yes" name="membership" value="Yes">Yes
+                    <input type="radio" id="membership-no" name="membership" value="No">No
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Delicious Delivery Inc</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
